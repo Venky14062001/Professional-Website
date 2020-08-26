@@ -1,0 +1,299 @@
+body{
+  background-color: #EAF6F6;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 4px;
+  width: 60%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2{
+  color: #393e46;
+}
+
+li{
+  padding-bottom: 30px;
+}
+
+.Front_Page{
+  background-color: #ffeadb;
+  /*background-image: url("https://lh3.googleusercontent.com/WjF1E-wrJtueHeLhlBUvHeNY8al2oHGv2NU8Ck3iH4FnSjSjMPpD6i4KoyStpSWwgjud2gbm8yFzhyoGPEBzikvtfCtZteysiGHpTs2HWKszcPb0yHEEM3AMvVtxE9WdTGFqMWEpdJ6Al3mTDr7_W6GomUdP8xAu9BCouSynBP9Ej5-lJB14KCE-3c4qY_-o45wg4G_T3wxq_p1bDy2gnUW7m3i4tUjPFCh5ZDyHCnf7x2ysGLiVXIZsd46pZAFH9xj_0ae4ZM27FscJJArguP98RCoQ10ULm9BM4dpXeJWVUE_oONHgyts51ZresLlPtFT-5mKI7jq97qC7UQ-O6ff9GfVa3acvUW2Z11mh0sV7573nt8PJb3D_SSYRLrzd0oRvnxWLg2M49grnfdHYkh7qellvqFQW3C6qcYwtTrLOfz5ag7yixQWWdgCs3ObozcerZdyzeivyn47dDUIlkJ0tdZStUojRxjsh1mDSibjHQF2hCrzAFRFUh4zx39VyvVnMnyolRu_sFRLsiqYd916-S581YOfILc0ayT6oRMlVBy9pOZ7uArWMm3LfekeJ5NG3Saq632WEi-976K8cCx3YSXGe88R-dWIeXGy9QENXbUk2j_EBjS7CpUGZQE6PleAypVMaJgEXB3do5iVSH_IZDB4kV5xutDMvPl-Wjuqm3ysJ841NNy8-CAJ3_Q=w668-h251-no");
+*/
+  background-image: url("background_robot_photoshopped.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#Name{
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+}
+
+#Project_title{
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  /*text-align: center;*/
+  top: 46%;
+  right: 21.7%;
+}
+
+.Introduction{
+  text-align: left;
+  background-color: white;
+}
+
+.Intro_profile{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Intro_table_elements{
+  width: 33%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+#Intro_picture{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Experience{
+  background-color: #F3EFE0;
+  margin: 0;
+}
+
+.Experience_Exp{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Experience_table{
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Education{
+  background-color: white;
+}
+
+.Education_ed{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Education_table{
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Additional_Activities{
+  background-color: #F3EFE0;
+  /*#bbf1c8;*/
+}
+
+.Additional_Activities_aa{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Additional_Activities_table{
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Skills{
+  background-color: white;
+  /*#dfd3c3;*/
+  /*height: 271.025px;*/
+}
+
+.Skills_s{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Skills_list{
+  width: 100%;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Languages{
+  background-color: #F3EFE0;
+  /*#ffdecf;*/
+}
+
+.Languages_l{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Languages_list{
+  width: 100%;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Certificates{
+  background-color: white;
+  /*#ddf3f5;*/
+}
+
+.Certificates_c{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Certificates_table{
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
+
+.Courses{
+  background-color: #F3EFE0;
+  /*#f4f6ff;*/
+}
+
+.Courses_c{
+  text-align: center;
+  color: #22A39F;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 40px;
+  border-bottom: 2px solid #22A39F;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Courses_table{
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: justify;
+  margin: 0;
+}
